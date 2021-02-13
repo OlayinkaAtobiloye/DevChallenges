@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  font-family: PT Serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -0.045em;
+}
+h2 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+}
+section.TeamMembers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+}
+p.name {
+}
+
+@media (min-width: 769px) {
+  section {
+    margin-bottom: 100px;
+  }
+  body {
+    padding-top: 100px;
+  }
+  img {
+    height: 471px;
+    width: 90%;
+  }
+  p.Role {
+    writing-mode: vertical-lr;
+    display: inline-block;
+    font-family: PT Serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    position: relative;
+    top: -50%;
+  }
+  div {
+    width: 30%;
+  }
+  #Member2,
+  #Member5 {
+    margin-top: 20px;
+  }
+  p.about {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+  }
+  p.name {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+  }
+  #Member5>img, #Member2>img{margin-top: 12rem;}
+}
+@media (max-width: 768px) {
+  p.about {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  h2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-family: PT Serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    margin-bottom: 38px;
+  }
+  div.about {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  section.about {
+    flex-direction: column;
+  }
+
+  div {
+    width: 50%;
+  }
+  section.t {
+    flex-direction: column;
+  }
+  img {
+    height: 261px;
+    width: 80%;
+  }
+  footer {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    margin-top: 60px;
+  }
+  p.Role {
+    font-family: PT Serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    writing-mode: vertical-lr;
+    display: inline-block;
+    position: relative;
+    top: -65%;
+  }
+}
