@@ -149,14 +149,14 @@ body {
     border: 1px solid #f2f2f2;
     width: 18px;
     transform: rotate(49deg);
-    transition: 2s;
+    transition: 1s;
     width: 25px;
   }
   div.NavIcon2 > p:nth-child(3) {
     border: 1px solid #f2f2f2;
     width: 18px;
     transform: rotate(-50deg);
-    transition: 2s;
+    transition: 1s;
     width: 25px;
   }
   body {
@@ -185,7 +185,7 @@ body {
     display: none;
     animation: NavMenu2 2s 1;
     transform: translateY(-100%);
-    transition: 2s;
+    transition: 1s;
   }
   nav.NavBar2 {
     display: flex !important;
@@ -200,7 +200,7 @@ body {
     justify-content: center;
     overflow: hidden;
     top: 45px;
-    animation: NavMenu 2s 1;
+    animation: NavMenu 1s 1;
   }
   nav.NavBar2 > a {
     font-family: Montserrat;
