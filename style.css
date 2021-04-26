@@ -3,13 +3,12 @@
   margin: 0px;
   box-sizing: border-box;
   letter-spacing: 0em;
-  overflow: hidden;
-}
+max-width: 100vw;}
 body {
   background: #181719;
   color: #ffffff;
   margin: 46px 77px 24px 77px;
-  overflow: hidden;
+  max-width: 100vw;
 }
 
 @media (min-width: 768px) {
@@ -150,7 +149,7 @@ body {
   div.NavIcon2 > p:nth-child(1) {
     border: 1px solid #f2f2f2;
     width: 18px;
-    transform: rotate(49deg);
+    transform: rotate(49deg) translate(2px, 2px);
     transition: 1s;
     width: 25px;
   }
@@ -163,6 +162,14 @@ body {
   }
   body {
     margin: 12px 12px 24px 12px;
+  }
+  body.close{
+    margin: 0px;
+    overflow: hidden;
+    margin: 12px 12px 0px 12px;
+  }
+  header.close{
+    margin: 12px 12px 0px 12px;
   }
 
   @keyframes NavMenu {
@@ -191,17 +198,17 @@ body {
   }
   nav.NavBar2 {
     display: flex !important;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     display: flex;
     flex-direction: column;
     z-index: 100;
     background: #181719;
-    width: 100vw;
+    width: 95vw;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    top: 45px;
+    margin-top: 45px;
     animation: NavMenu 1s 1;
   }
   nav.NavBar2 > a {
