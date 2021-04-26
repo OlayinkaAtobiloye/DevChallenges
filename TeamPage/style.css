@@ -45,7 +45,7 @@ p.name {
     padding-top: 100px;
   }
   img {
-    height: 471px;
+    height: auto;
     width: 90%;
   }
   p.Role {
@@ -123,7 +123,7 @@ p.name {
     flex-direction: column;
   }
   img {
-    height: 261px;
+    height: auto;
     width: 80%;
   }
   footer {
