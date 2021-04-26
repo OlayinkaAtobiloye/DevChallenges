@@ -11,7 +11,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  div.NavIcon{
+  div.NavIcon {
     display: none;
   }
   header {
@@ -75,8 +75,8 @@ body {
     color: #ffffff;
   }
   div.AboutImage > img.BrandImage {
-    width: 55vw;
-    height: 70vh;
+    width: 50vw;
+    height: auto;
     transform: matrix(-1, 0, 0, 1, 0, 0);
   }
 
@@ -143,14 +143,52 @@ body {
     border: 1px solid #f2f2f2;
     margin-bottom: 3px;
     width: 18px;
+    transition: 1s;
+  }
+  div.NavIcon2 > p:nth-child(1) {
+    border: 1px solid #f2f2f2;
+    width: 18px;
+    transform: rotate(49deg);
+    transition: 2s;
+    width: 25px;
+  }
+  div.NavIcon2 > p:nth-child(3) {
+    border: 1px solid #f2f2f2;
+    width: 18px;
+    transform: rotate(-50deg);
+    transition: 2s;
+    width: 25px;
   }
   body {
     margin: 12px 12px 24px 12px;
   }
+
+  @keyframes NavMenu {
+    from {
+      transform: translate(-100%, -100%);
+      border-radius: 50%;
+    }
+    to {
+      transform: translate(0px, 0px);
+      border-radius: 0px;
+    }
+  }
+  @keyframes NavMenu2 {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(100%);
+    }
+  }
   nav.NavBar {
     display: none;
+    animation: NavMenu2 2s 1;
+    transform: translateY(-100%);
+    transition: 2s;
   }
-  nav.NavBar2{display: flex !important;
+  nav.NavBar2 {
+    display: flex !important;
     height: 100vh;
     position: absolute;
     display: flex;
@@ -160,7 +198,10 @@ body {
     width: 100vw;
     align-items: center;
     justify-content: center;
-  overflow: hidden;}
+    overflow: hidden;
+    top: 45px;
+    animation: NavMenu 2s 1;
+  }
   nav.NavBar2 > a {
     font-family: Montserrat;
     font-size: 18px;
@@ -213,7 +254,7 @@ body {
   }
   img.BrandImage {
     width: 90vw;
-    height: 50vh;
+    height: auto;
     margin-top: 25px;
   }
   div.AboutImage {
