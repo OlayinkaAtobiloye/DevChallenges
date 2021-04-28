@@ -46,7 +46,7 @@ p.name {
     padding-top: 100px;
   }
   img {
-    height: 471px;
+    height: auto;
     width: 90%;
   }
   p.Role {
@@ -124,7 +124,7 @@ p.name {
     flex-direction: column;
   }
   img {
-    height: 261px;
+    height: auto;
     width: 80%;
   }
   footer {
@@ -144,6 +144,9 @@ p.name {
     writing-mode: vertical-lr;
     display: inline-block;
     position: relative;
-    top: -65%;
+    top: -55%;
+  }
+  section.TeamMembers>div:nth-child(even){
+    margin-top: 5rem;
   }
 }
