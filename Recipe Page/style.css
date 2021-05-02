@@ -1,0 +1,325 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+@media (min-width: 768px) {
+  section.ServingsMobile {
+    display: none;
+  }
+  body {
+    margin: 32px 15vw 32px 15vw;
+  }
+  h1.header {
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    color: #000000;
+  }
+  p.intro {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin-bottom: 16px;
+    color: #4f4f4f;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 48px;
+  }
+  section.Ingredients > h1 {
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #333333;
+  }
+  div.Crust > h2,
+  div.Cheesecake > h2 {
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #333333;
+    margin-bottom: 32px;
+    margin-top: 32px;
+  }
+  input[type="checkbox"] {
+    margin-right: 15px;
+  }
+  section.Ingredients li {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #333333;
+    margin-bottom: 12px;
+  }
+  div.Container {
+    display: flex;
+    justify-content: space-between;
+  }
+  section.Wrapper {
+    max-width: 60%;
+  }
+  section.Instructions > h1 {
+    margin: 28px 0 28px 0;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #333333;
+  }
+  section.Instructions li {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-bottom: 32px;
+    color: #333333;
+  }
+  span.Box {
+    width: 36px;
+    height: 36px;
+    background-color: #f2994a;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-right: 15px;
+  }
+  aside {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-bottom: 90px;
+  }
+  footer {
+    color: #828282;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  span.Bold {
+    font-weight: 700;
+  }
+  section.Servings {
+    height: 367px;
+    width: 216px;
+    box-shadow: 0px 0px 20px 0px #0000001a;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 40px;
+  }
+  section.Servings span {
+    float: left;
+    width: 28px;
+    height: auto;
+    margin-right: 13px;
+  }
+  section.Servings > div > p:first-of-type {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    color: #bdbdbd;
+  }
+  section.Servings > div > p:last-child {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #333333;
+    margin-top: 4px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    margin: 32px 12px 16px 12px;
+  }
+  h1.header {
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    margin-bottom: 5px;
+  }
+  p.intro {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+    margin-top: 16px;
+  }
+  section.Servings {
+    display: none;
+  }
+  section.Ingredients > h1 {
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-bottom: 13px;
+  }
+  div.Crust > h2,
+  div.Cheesecake > h2 {
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    margin: 0 0 24px 0;
+  }
+  input[type="checkbox"] {
+    margin-right: 9px;
+  }
+  section.Ingredients li {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-bottom: 10px;
+  }
+
+  div.Cheesecake > h2 {
+    margin-top: 24px;
+  }
+  section.Instructions > h1 {
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    margin: 30px 0 28px 0;
+    color: #333333;
+  }
+  section.Instructions li {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-bottom: 25px;
+  }
+  span.Box {
+    width: 36px;
+    height: 36px;
+    background: #f2994a;
+    border-radius: 6px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+  aside {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #bdbdbd;
+    margin-bottom: 100px;
+    margin-top: 32px;
+  }
+  footer {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #828282;
+  }
+  span.Bold {
+    font-weight: 700;
+  }
+  div.Serve {
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+    margin-top: 16px;
+    margin-bottom: 30px;
+  }
+  div.Serve > div {
+    flex-basis: 30vw;
+  }
+  section.ServingsMobile span {
+    float: left;
+    width: 28px;
+    height: auto;
+    margin-right: 5px;
+  }
+  section.ServingsMobile p:first-of-type {
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0em;
+    color: #bdbdbd;
+  }
+  section.ServingsMobile p:last-child {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    color: #333333;
+  }
+}
