@@ -35,9 +35,12 @@ footer {
   font-weight: 600;
   line-height: 17px;
 }
-p.name {
+div{
+  position: relative;
 }
-
+p.Role{
+  position: absolute;
+}
 @media (min-width: 769px) {
   section {
     margin-bottom: 100px;
