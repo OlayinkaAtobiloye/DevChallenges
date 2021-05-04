@@ -67,7 +67,7 @@ p.Role{
   }
   #Member2,
   #Member5 {
-    margin-top: 20px;
+    margin-top: 12rem;
   }
   p.about {
     font-family: Poppins;
@@ -83,7 +83,6 @@ p.Role{
     line-height: 27px;
     letter-spacing: 0em;
   }
-  #Member5>img, #Member2>img{margin-top: 12rem;}
 }
 @media (max-width: 768px) {
   p.about {
