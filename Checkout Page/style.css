@@ -1,0 +1,332 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    letter-spacing: 0em;
+}
+body{
+    margin: 32px 10vw 32px 10vw;
+}
+div.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+fieldset{
+    border: none;
+    margin-bottom: 60px;
+    position: relative;
+}
+body>h1{
+    font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px;
+color: #4E5150;
+margin-bottom: 50px;
+}
+legend{
+    font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+color: #333333;
+margin-bottom: 15px;
+}
+p.input{
+    position: relative;
+    height: 56px;
+width: 465px;
+margin-bottom: 20px;
+}
+p.input span{
+    position: absolute;
+   width: 20px;
+    height: 16px;
+    padding-left: 15px;
+    margin-top: 3%;
+}
+input{
+    padding-left: 40px;
+    height: 56px;
+width: 465px;
+border-radius: 12px;
+border-color: #828282;
+}
+label{
+    font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 15px;
+margin-bottom: 10px;
+display: block;
+}
+input[type="checkbox"]{
+    width: 21px;
+    height: 21px;
+    margin-right: 10px;
+}
+p.checkbox{
+    display: flex;
+    align-items: center;
+}
+p.checkbox>span{
+    font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 15px;
+}
+button{
+    margin-top: 21px;
+    height: 54px;
+width: 166px;
+border-radius: 12px;
+background-color: #F2994A;
+font-family: Montserrat !important;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+color: #ffffff;
+position: absolute;
+right: 0px;
+border-color: #F2994A;
+border-style: none;
+}
+select{
+    position: absolute;
+    right: 20px;
+    height: 21px;
+width: 21px;
+border-radius: 4px;
+margin-top: 8%;
+}
+div.form{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width:769px){
+div.form>div>p, div.form input{
+    width: 217px;
+}
+p.Discount{
+    font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+color: #F2994A;
+display: inline-block;
+}
+p.Original{
+    font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 15px;
+text-decoration: line-through;
+color: #4E5150;
+display: inline-block;
+margin-left: 12px;
+margin-bottom: 32px;
+}
+
+span.Plus, span.Minus{
+    height: 19px;
+width: 19px;
+border-radius: 4px;
+background: #E0E0E0;
+border-radius: 4px;
+color: #828282;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+div.product{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+div.product>div{
+    min-width: 60%;
+}
+p.Order{
+    height: 50px;
+width: 50%;
+border-radius: 12px;
+border: 1px solid #828282;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+div.Shipping>p{
+    font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+display: flex;
+justify-content: space-between;
+border-top: 1px solid #BDBDBD;
+color: #333333;
+margin-bottom: 10px;
+padding-top: 5px;
+}
+}
+div.form span{
+    margin-top: 8%;
+}
+section.product{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    padding: 32px 27px 32px 27px;
+    height: fit-content;
+}
+footer{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 5vh;}    
+img{
+    width: 30%;
+    height: auto;
+    border-radius: 12px;
+}
+
+section.product h1{
+    font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+margin-bottom: 10px;
+}
+@media (max-width:768px){
+    body{
+        margin: 0;
+    }
+    div.wrapper{
+        flex-direction: column-reverse;
+        margin: 16px 5vw 16px 5vw;
+    }
+    input{
+        width: 100%;
+        height: 40px;
+    }
+    p.input{
+        width: 90vw;
+        height: 40px;
+    }
+    div.form>div>p{
+        width: 40vw;
+    }
+    p.input span{
+        margin-top: 4px;
+    }
+    section.product{
+        padding: 16px 10vw 16px 5vw;
+        margin-bottom: 40px;
+    }
+    section.product h1{font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 15px;
+margin-bottom: 10px;
+    }
+    p.Discount{
+        font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+color: #F2994A;
+display: inline-block;
+    }
+    p.Original{
+        font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: 12px;
+text-decoration: line-through;
+color: #4E5150;
+display: inline-block;
+margin-left: 12px;
+margin-bottom: 22px;
+    }
+    span.Plus, span.Minus{
+        height: 19px;
+width: 19px;
+border-radius: 4px;
+background: #E0E0E0;
+border-radius: 4px;
+color: #828282;
+display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    }
+    img{
+        width: 40vw;
+        height: auto;
+        border-radius: 12px;
+    }
+    div.product{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+    }
+    div.product>div{
+        min-width: 30vw;
+    }
+    p.Order{
+        height: 50px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    div.Shipping>p{
+        font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+display: flex;
+justify-content: space-between;
+border-top: 1px solid #BDBDBD;
+color: #333333;
+margin-bottom: 10px;
+padding-top: 5px;
+    }
+    body>h1{
+        font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 29px;
+margin: 16px 5vw 16px 5vw;
+    }
+    footer{
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+text-align: center;
+margin-top: 20vh;
+margin-bottom: 5vh;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    body{margin: 32px 3vw 32px 3vw;}
+}
