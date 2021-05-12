@@ -1,15 +1,164 @@
 <!DOCTYPE html>
-<head>
-<title>Form</title>
-</head>
-<body>
-    <ol>
-        <li>Eggs</li>
-        <li>Milk</li>
-    </ol>
-    <ul>
-        <li>Eggs</li>
-        <li>Milk</li>
-    </ul>
+<!--#181719-->
 
+<head>
+    <title>Portfolio</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='description' content="A portfolio page. Design inspiration from DevChallenges">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@100;400&display=swap"
+        rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="assets/devchallenges.png" rel="icon" type="img/icon">
+</head>
+
+<body>
+    <div class="Container">
+        <section class="Me">
+            <img src="assets/mypicture.jpg" alt="Olayinka Atobiloye" class="Me">
+            <div>
+                <div class="Title">
+                    <h1>Olayinka Atobiloye</h1>
+                    <p>Frontend Developer, Data Scientist, & Technical Writer</p>
+                </div>
+                <div class="Contact">
+                    <p><a href="mailto:hiqmatolayinka@gmail.com">hiqmatolayinka@gmail.com</a></p>
+                    <p>(+234)9076764199</p>
+                </div>
+            </div>
+            <div class="About">
+                <p>Hi there! </p>
+                <p>I'm Olayinka, a Software Engineer and Data Scientist. I love creating and building accessible
+                    and mind-blowing technologies. In my free time, I write articles to explain new concepts to others.
+                    <br>
+                    I enjoy building new products; If you have an exciting product, I'm open to work on them!
+                </p>
+            </div>
+        </section>
+        <!--<div class="Container"> -->
+        <section class="Skills">
+            <h1>Skills</h1>
+            <h2>Here are some technologies I work with.</h2>
+            <p>Python <progress value="1"></progress></p>
+            <p>JavaScript<progress value="1"></progress></p>
+            <p>CSS<progress value="1"></progress></p>
+            <p>SQL<progress value="1"></progress></p>
+            <p>React<progress value="1"></progress></p>
+        </section>
+
+        <section class="Hobbies">
+            <h1>Hobbies</h1>
+            <h2>When I'm not caught up in school work or working on a project, here are what I enjoy doing!</h2>
+            <div>
+                <img src="assets/reading.jpg">
+                <h3>Reading</h3>
+                <p>Nothing excites me more than the thought of picking up a new book to read!</p>
+            </div>
+            <div>
+                <img src="assets/movies.jpg">
+                <h3>Watching Movies</h3>
+                <p>Curling up on my bed while watching a movie or series is one of my favorite things to do!</p>
+            </div>
+            <div style="display: none;">
+                <h3>Listening To Music</h3>
+                <p>I enjoy listening to songs with message and inspiration, cause, who doesn't?</p>
+            </div>
+            <div>
+                <img src="assets/eating.jpg">
+                <h3>Eating</h3>
+                <p>Yeah, you caught me. I'm a big foodie!</p>
+            </div>
+        </section>
+
+        <section class="Blog">
+            <h1>Blog</h1>
+            <div>
+                <img src="assets/importingdata.jpeg">
+                <h2>Importing Data From The Web Into Python</h2>
+                <p>A detailed article on how to import data from the web using some Python libraries.</p>
+                <a href="https://dev.to/olayinkaatobiloye/importing-data-from-the-web-into-python-3h0n">Read</a>
+            </div>
+            <div>
+                <img src="assets/deepdive.jpg">
+                <h2>A Deep Dive Into Machine Learning</h2>
+                <p>Machine learning is one of the latest buzzwords in tech. This field has experienced an uprising in
+                    the
+                    past few years. Learn about the nitty-gritty of getting started in machine learning in this article.
+                </p>
+                <a href="https://dev.to/olayinkaatobiloye/a-deep-dive-into-machine-learning-2c94">Read</a>
+            </div>
+        </section>
+
+        <section class="Projects">
+            <div class="Categories">
+                <h1>Projects</h1>
+                <p class="Color" id="WebDesign">Responsive</p>
+                <p id="CaseStudies">Case Studies</p>
+            </div>
+
+            <div class="CaseStudies">
+                <div>
+                    <h2>Dr. Semmelweis and the Discovery of Handwashing</h2>
+                    <p>In this Data Science case study, I reanalyzed the data behind one of the most important
+                        discoveries
+                        of modern medicine: handwashing.</p>
+                    <a href="https://github.com/OlayinkaAtobiloye/Dr.-Semmelweis-and-the-Discovery-of-Handwashing"
+                        target="_blank">Code</a>
+                </div>
+                <div>
+                    <h2>Generating Keywords For Google Ads</h2>
+                    <p>In this project, I created a Python script that automatically generate keywords for a search
+                        engine marketing campaign.</p>
+                    <a href="https://github.com/OlayinkaAtobiloye/Generating-Keywords-For-Google-Ads"
+                        target="_blank">Code</a>
+                </div>
+            </div>
+
+            <div class="WebDesign">
+                <div>
+                    <img src="assets/recipe.jpg">
+                    <h2>Recipe Blog</h2>
+                    <p>In this project, I work with HTML and CSS to create a responsive recipe blog page. The design is
+                        from
+                        devchallenge.io</p>
+                    <a href="https://arecipepage.netlify.app/" target="_blank">Demo</a>
+                    <a href="https://github.com/OlayinkaAtobiloye/DevChallenges/tree/recipe-page"
+                        target="_blank">Code</a>
+                </div>
+                <div>
+                    <img src="assets/gallery.jpg">
+                    <h2>My Gallery</h2>
+                    <p>In this project, I work with HTML and CSS to create a web page similiar to instagram profile
+                        page.
+                        The design is from devchallenge.io</p>
+                    <a href="https://gallerypage.netlify.app/" target="_blank">Demo</a>
+                    <a href="https://github.com/OlayinkaAtobiloye/DevChallenges/tree/gallery-page"
+                        target="_blank">Code</a>
+                </div>
+                <div>
+                    <img src="assets/checkoutb.jpg">
+                    <h2>Checkout</h2>
+                    <p>In this project, I created a Checkout page for an online store. The design is from
+                        devchallenge.io
+                    </p>
+                    <a href="https://checkoutchallenge.netlify.app/" target="_blank">Demo</a>
+                    <a href="https://github.com/OlayinkaAtobiloye/DevChallenges/tree/checkout-page"
+                        target="_blank">Code</a>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <footer>
+        created by Olayinka Atobiloye - devChallenges.io
+    </footer>
 </body>
+<script src="script.js"></script>
+
+</html>
